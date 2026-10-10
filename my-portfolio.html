@@ -2,76 +2,93 @@
 <html>
 
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>My Portofilo</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body>
-    <h1>Ganethra Heshan</h1>
-    <p>Undergraduate Computer Science Student</p>
-    <h2>About me</h2>
-    <P>
-        My name is Ganethra Heshan, and I am 22 year old.
-        I am currently living in Pasyala.
-        I am a student at University of Sri Jayewardenepura.
-        In university, I am learning Mathematics, Statistic and Computer Science.
-        My favorite subject is Computer Science because I love coding. 
-        In the future, My goal is become a full-stack engineer.
-    </P>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>C</li>
-        <li>Python</li>
-        <li>Git and GitHub</li>
-    </ul>
-    <h2>Projects</h2>
+    <div class="page-top">
+        <img src="profile-pic.png" alt="profile picture">
+        <h1>Ganethra Heshan</h1>
+        <p>Undergraduate Computer Science Student</p>
+    </div>
 
-    <table border="1">
-        <tr>
-            <th>Project Name</th>
-            <th>description</th>
-            <th>Technology used</th>
-        </tr>
-        <tr>
-            <td>Smart Hospital Resource Allocation System</td>
-            <td>
-                A modular, menu-driven Smart Hospital Patient & Resource Allocation System in the C programming
-                language.
-            </td>
-            <td>C language</td>
-        </tr>
-        <tr>
-            <td>Movie Ticket Booking System</td>
-            <td>A command-line movie ticket booking system written in C language.</td>
-            <td>C language</td>
-        </tr>
-        <tr>
-            <td>Personal Portfolio</td>
-            <td>A clean personal portfolio webpage showcasing skills, and projects.</td>
-            <td>HTML</td>
-        </tr>
-    </table>
+    <div class="about-me">
+        <h2>About me</h2>
+        <P class="description">
+            My name is Ganethra Heshan, and I am 22 year old.
+            I am currently living in Pasyala.
+            I am a student at University of Sri Jayewardenepura.
+            In university, I am learning Mathematics, Statistic and Computer Science.
+            My favorite subject is Computer Science because I love coding.
+            In the future, My goal is become a full-stack engineer.
+        </P>
+    </div>
 
-    <h2>Contact Me</h2>
-    <form>
-        <lable for="username">Name: </lable><br>
-        <input type="text" id="username" placeholder="Name"><br>
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>Git and GitHub</li>
+        </ul>
+    </div>
 
-        <lable for="email">Email: </lable><br>
-        <input type="text" id="email" placeholder="Email"><br>
+    <div class="projects">
+        <h2>Projects</h2>
 
-        <label for="message">Message: </label><br>
-        <textarea id="message" placeholder="Write Something"></textarea><br>
-        
-        <input type="submit" value="Submit">
-    </form>
+        <table border="1">
+            <tr>
+                <th>Project Name</th>
+                <th>description</th>
+                <th>Technology used</th>
+            </tr>
+            <tr>
+                <td>Smart Hospital Resource Allocation System</td>
+                <td>
+                    A modular, menu-driven Smart Hospital Patient & Resource Allocation System in the C programming
+                    language.
+                </td>
+                <td>C language</td>
+            </tr>
+            <tr>
+                <td>Movie Ticket Booking System</td>
+                <td>A command-line movie ticket booking system written in C language.</td>
+                <td>C language</td>
+            </tr>
+            <tr>
+                <td>Personal Portfolio</td>
+                <td>A clean personal portfolio webpage showcasing skills, and projects.</td>
+                <td>HTML</td>
+            </tr>
+        </table>
 
-    <h2>Connect with me</h2>
-    <a href="https://github.com/GANETHRAHESHAN">GitHub</a>
-    <br>
-    <a href="linkedin.com/in/ganethra-heshan-721799404/">Linkedin</a>
+    </div>
+
+    <div class="contac-me">
+        <h2>Contact Me</h2>
+        <form>
+            <lable for="username">Name: </lable><br>
+            <input type="text" id="username" placeholder="Name"><br>
+
+            <lable for="email">Email: </lable><br>
+            <input type="text" id="email" placeholder="Email"><br>
+
+            <label for="message">Message: </label><br>
+            <textarea id="message" placeholder="Write Something"></textarea><br>
+
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="connect-with-me">
+        <h2 class="connect">Connect with me</h2>
+        <a href="https://github.com/GANETHRAHESHAN">GitHub</a> |
+        <a href="linkedin.com/in/ganethra-heshan-721799404/">Linkedin</a>
+    </div>
 </body>
 
 </html>
